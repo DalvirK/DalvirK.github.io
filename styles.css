@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(255, 166, 0, 0.349);
+}
+
+.Title{
+    font-size: 30px;
+    padding: 20px;
+    background-color: orange;
+}
+.Intro {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: grey;
+}
+
+
+.navbar ul{
+    list-style: none;
+    background: black;
+    text-align: center;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 5px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}
+.navbar a:hover {
+    background: orange;
+}
+
+.winter{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about_text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.first {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.Home_image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
