@@ -841,7 +841,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(15, 113, 174, 0.6), rgba(7, 26, 41, 0.8)), url("https://img3.wallspic.com/crops/9/0/4/9/39409/39409-skyscape_art-lake-night-sky-wilderness-3840x2400.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1753,7 +1753,7 @@ section {
   width: 100%;
   min-height: 50vh;
   background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
+  background-image: url("../img/mountain_landscape18_generated.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
