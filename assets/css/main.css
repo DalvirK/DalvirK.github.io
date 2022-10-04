@@ -840,29 +840,36 @@ section {
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
-.call-to-action {
+.call-to-action1 {
+  background: linear-gradient(rgba(8, 50, 71, 0.6), rgba(10, 41, 64, 0.8)), url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png") center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.call-to-action2 {
   background: linear-gradient(rgba(8, 50, 71, 0.6), rgba(10, 41, 64, 0.8)), url("https://cdn.wallpapersafari.com/99/17/rLOs38.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
 
+
 @media (min-width: 1365px) {
-  .call-to-action {
+  .call-to-actionall {
     background-attachment: fixed;
   }
 }
 
-.call-to-action h3 {
+.call-to-actionall h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-.call-to-action p {
+.call-to-actionall p {
   color: #fff;
 }
 
-.call-to-action .cta-btn {
+.call-to-actionall .cta-btn {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
@@ -876,7 +883,7 @@ section {
   color: #fff;
 }
 
-.call-to-action .cta-btn:hover {
+.call-to-actionall .cta-btn:hover {
   background: var(--color-secondary);
   border: 2px solid var(--color-secondary);
 }
